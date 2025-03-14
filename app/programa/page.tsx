@@ -15,10 +15,10 @@ export default function Page() {
       <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Manejo de la Terminal y Comandos Básicos</p>} />
       <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Control de Versiones</p>} />
       <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Manejo básico de Shell-Scripting</p>} />
-      <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Desarrollo Orientado por Pruebas</p>} />
       <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Nociones básicas de Ingeniería de Software</p>} />
       <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Nociones Básicas de Desarrollo Web: Front-End, Back-End y Frameworks</p>} />
       <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Introducción a Bases de Datos</p>} />
+      <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Docker, Containerizacion</p>} />
     </Typography>
   </>;
 

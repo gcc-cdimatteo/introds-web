@@ -25,10 +25,12 @@ export default function Page() {
           <br />
           <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Tomás Villegas </>} />
           <br />
+          <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Nestor Palavecino </>} />
+          <br />
 
           <h4>Colaboradores</h4>
           <br />
-          <Teacher icon={<School style={{ color: '#006EAF' }} />} name={<> Ing.Tomás Rodríguez </>} />
+          <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Ing.Tomás Rodríguez </>} />
           <br />
           <Teacher icon={<Face style={{ color: '#006EAF' }} />} name={<> Flavio Villanueva </>} />
           <br />
