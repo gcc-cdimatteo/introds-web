@@ -11,8 +11,7 @@ export default function Page() {
     <>
       <Typography style={{ fontSize: '1rem' }}>
         <div>
-          Los docentes de la cátedra somos:
-          <br />
+          <h4>Docentes</h4>
           <br />
           <Teacher icon={<School style={{ color: '#006EAF' }} />} name={<> Lic. Bruno Lanzillotta </>} />
           <br />
@@ -26,15 +25,13 @@ export default function Page() {
           <br />
           <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Tomás Villegas </>} />
           <br />
-          <Teacher icon={<Face style={{ color: '#006EAF' }} />} name={<> Nestor Palavecino </>} />
+
+          <h4>Colaboradores</h4>
           <br />
-          <Teacher icon={<Face2 style={{ color: '#006EAF' }} />} name={<> Marina Petean </>} />
+          <Teacher icon={<School style={{ color: '#006EAF' }} />} name={<> Ing.Tomás Rodríguez </>} />
           <br />
-          <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Nicolás Romano </>} />
+          <Teacher icon={<Face style={{ color: '#006EAF' }} />} name={<> Flavio Villanueva </>} />
           <br />
-          <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Santiago Novaro </>} />
-          <br />
-          <Teacher icon={<Face style={{ color: '#006EAF' }} />} name={<> Francisco Lorda </>} />
         </div>
       </Typography>
     </>

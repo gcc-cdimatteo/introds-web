@@ -4,7 +4,7 @@ import { Fragment, ReactElement } from "react";
 import ListItem from "../list-item";
 import { FiberManualRecordTwoTone } from "@mui/icons-material";
 
-export default function ColTeoricaPractica({ content }: { content: Array<string> }) {
+export default function ColTeoricaPractica({ content }: { content: string[] }) {
     if (!content) return <></>;
 
     // Cabecera
@@ -20,9 +20,9 @@ export default function ColTeoricaPractica({ content }: { content: Array<string>
     return (
         <>
             <Col span={teorica_practica_col}>
-                {content.map((topic) => {
+                {content.map((topic, index) => {
                     if (topic == "") return <></>;
-                    return <ListItem icon={<FiberManualRecordTwoTone style={{ color: '#005AB6', fontSize: 12 }} />} text={<p style={{ textAlign: 'left' }}>{topic.replace('- ', '')}</p>} />
+                    return <ListItem key={index} icon={<FiberManualRecordTwoTone style={{ color: '#005AB6', fontSize: 12 }} />} text={<p style={{ textAlign: 'left' }}>{topic.replace('- ', '')}</p>} />
                 })
                 }
             </Col>

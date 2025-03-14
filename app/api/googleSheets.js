@@ -13,8 +13,8 @@ export const getSheetData = async () => {
 
     const googleSheets = google.sheets({ version: 'v4', auth: client });
 
-    const spreadsheetId = '1mlXN37dyvSaf9WZcYHv8PJbe93Tie4hVKbFNZtvMWHQ';
-    const range = 'IDS - 2024 - 2C!A8:G23';
+    const spreadsheetId = '102dHhHtgn5bdOrxb7-DXO6JpaGbOJ988eD53H77uDuk';
+    const range = 'Cronograma :: IDS - 2025 - 1C!A8:Q24';
 
     const response = await googleSheets.spreadsheets.values.get({
         spreadsheetId,

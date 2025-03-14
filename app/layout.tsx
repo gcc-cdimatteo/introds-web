@@ -34,7 +34,7 @@ export default function RootLayout({
           </Header>
           {children}
           <Footer style={{ textAlign: 'center' }}>
-            Introducción al Desarrollo de Software © {new Date().getFullYear()} Created by Carolina Di Matteo
+            Introducción al Desarrollo de Software © {new Date().getFullYear()} Created by Carolina Di Matteo ® Maintained by Carolina Di Matteo & Francisco O. Lorda
           </Footer>
         </Layout>
       </body>
