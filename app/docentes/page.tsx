@@ -1,9 +1,7 @@
 import { ReactElement } from 'react';
 import PageContainer from '../ui/page-container';
 import { Typography } from 'antd';
-import { Face, Face2, Face2Outlined, Face5, Face6, Person, School } from '@mui/icons-material';
-import { Box, Icon } from '@mui/material';
-import Tab from '../ui/tab';
+import { Face, Face2, Face6, School } from '@mui/icons-material';
 import Teacher from '../ui/teacher';
 
 export default function Page() {
