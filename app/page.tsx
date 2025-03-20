@@ -31,7 +31,7 @@ export default function Page() {
         <ListLinkItem icon={<LinkOutlined htmlColor="#006EAF" />} link={"https://drive.google.com/drive/folders/11ZPL8mjL2F_Kr-mRltXGba62FovkkIwB"} title={"Guía de Ejercicios"} />
         <ListLinkItem icon={<LinkOutlined htmlColor="#006EAF" />} link={"https://drive.google.com/drive/folders/1EaowjueNp7y7_b0Qj_PyDmSJaaZOescM?usp=sharing"} title={"Drive para Alumnos"} />
         <ListLinkItem icon={<LinkOutlined htmlColor="#006EAF" />} link={"https://chat.whatsapp.com/LWHJN7BCCed0FbeIGOEUkp"} title={"WhatsApp para Alumnos"} />
-
+        <ListLinkItem icon={<LinkOutlined htmlColor="#006EAF" />} link={"https://docs.google.com/forms/u/1/d/e/1FAIpQLSfOQyMTA6HDDnfUV3hq2quEe6mfkTywtHUcZUSDRGtBLMIjww/viewform"} title={"Solicitud cuenta de correo fi.uba.ar"} />
       </Typography>
     </>
   );

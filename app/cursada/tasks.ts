@@ -12,7 +12,7 @@ export const tasks_promocion: string[] = [
 
 export const tasks_aclaraciones: string[] = [
     "El Parcialito es virtual",
-    "El Parcial es presenciales",
+    "El Parcial es presencial",
     "La Defensa Oral del Trabajo Práctico Grupal es presencial",
     "Las Clases Obligatorias son presenciales"
 ];
